@@ -1,4 +1,4 @@
-<div style="text-align: center">
+<div align="center">
   <!-- Build Status -->
   <a href="https://travis-ci.org/dbtek/ipret">
     <img src="https://img.shields.io/travis/dbtek/ipret/master.svg?style=flat-square"
