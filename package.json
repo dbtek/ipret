@@ -24,5 +24,17 @@
     "tape": "^4.6.3",
     "uglifyify": "^3.0.4",
     "unassertify": "^2.0.4"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbtek/ipret.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dbtek/ipret/issues"
+  },
+  "homepage": "https://github.com/dbtek/ipret#readme"
 }
