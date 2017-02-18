@@ -25,6 +25,7 @@
     "browserify": "^14.1.0",
     "codecov": "^1.0.1",
     "istanbul": "^0.4.5",
+    "standard": "^8.6.0",
     "tape": "^4.6.3",
     "uglifyify": "^3.0.4",
     "unassertify": "^2.0.4"
