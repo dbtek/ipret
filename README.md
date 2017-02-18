@@ -1,4 +1,4 @@
-ipret
+ipret :earth_africa:
 =====
 Micro i18n library for node and browser. Ugly name comes from **i**nter**pret**. Use it to translate your app with strings already there.
 
