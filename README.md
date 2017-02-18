@@ -1,3 +1,21 @@
+<div style="text-align: center">
+  <!-- Build Status -->
+  <a href="https://travis-ci.org/dbtek/ipret">
+    <img src="https://img.shields.io/travis/dbtek/ipret/master.svg?style=flat-square"
+      alt="Build Status" />
+  </a>
+  <!-- Test Coverage -->
+  <a href="https://codecov.io/github/dbtek/ipret">
+    <img src="https://img.shields.io/codecov/c/github/dbtek/ipret/master.svg?style=flat-square"
+      alt="Test Coverage" />
+  </a>
+  <!-- Standard -->
+  <a href="https://codecov.io/github/dbtek/ipret">
+    <img src="https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square"
+      alt="Standard" />
+  </a>
+</div>
+
 ipret :earth_africa:
 =====
 Micro i18n library for node and browser. Ugly name comes from **i**nter**pret**. Use it to translate your app with strings already there.
