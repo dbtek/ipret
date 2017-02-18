@@ -1,0 +1,28 @@
+{
+  "name": "ipret",
+  "version": "0.1.0",
+  "description": "Micro i18n js library. No dependencies.",
+  "main": "src/ipret.js",
+  "scripts": {
+    "test": "standard src && node test",
+    "build": "browserify src/ipret -o dist/ipret.js -g uglifyify -t unassertify --standalone ipret"
+  },
+  "keywords": [
+    "js",
+    "interpreter",
+    "locale",
+    "multilingual",
+    "languages",
+    "internationalization",
+    "i18n",
+    "l10n",
+    "localization"
+  ],
+  "author": "İsmail Demirbilek <ce.demirbilek@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^4.6.3",
+    "uglifyify": "^3.0.4",
+    "unassertify": "^2.0.4"
+  }
+}
