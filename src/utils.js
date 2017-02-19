@@ -1,3 +1,6 @@
+/**
+ * @module utils
+ */
 var slice = [].slice
 
 /**

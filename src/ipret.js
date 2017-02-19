@@ -1,5 +1,10 @@
 /**
- * Module for handling translations.
+ * @title ipret
+ * @overview Micro i18n library for node and browser. Translate your app with strings already there.
+ * @copyright (c) 2017
+ * @license MIT
+ * @author İsmail Demirbilek
+ * @module ipret
  */
 const utils = require('./utils')
 
