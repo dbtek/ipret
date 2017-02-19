@@ -1,4 +1,5 @@
 <div align="center">
+  <h1>ipret :earth_africa:</h1>
   <!-- Build Status -->
   <a href="https://travis-ci.org/dbtek/ipret">
     <img src="https://img.shields.io/travis/dbtek/ipret/master.svg?style=flat-square"
@@ -16,8 +17,6 @@
   </a>
 </div>
 
-ipret :earth_africa:
-=====
 Micro i18n library for node and browser. Ugly name comes from **i**nter**pret**. Use it to translate your app with strings already there.
 
 ### Install
