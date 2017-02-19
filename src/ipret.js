@@ -42,17 +42,15 @@ exports.setLanguage = function (lang) {
  * @param  {String} string String to be translated.
  * @return {String}        Translated output.
  */
-exports.translate = (function (_this) {
-  return function () {
-    var args, targs
-    args = arguments.length >= 1 ? slice.call(arguments, 0) : []
-    targs = args.map(function (a) {
-      var ref
-      return ((ref = translations[activeLang]) != null ? ref[a] : void 0) || a
-    })
-    return utils.stringFormat.apply(_this, targs)
-  }
-})(this)
+exports.translate = function () {
+  var args, targs
+  args = arguments.length >= 1 ? slice.call(arguments, 0) : []
+  targs = args.map(function (a) {
+    var ref
+    return ((ref = translations[activeLang]) != null ? ref[a] : void 0) || a
+  })
+  return utils.stringFormat.apply(this, targs)
+}
 
 /**
  * Active language code.
