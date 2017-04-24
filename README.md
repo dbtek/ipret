@@ -41,13 +41,13 @@ ipret.setStrings('tr', {
 // set active lang
 ipret.setLanguage('tr')
 
-gettext = ipret.translate
+_ = ipret.translate
 
 // translate
-gettext('Current password')         // Şimdiki şifre
-gettext('New password')             // Yeni şifre
-gettext('Updated {0}', 'password')  // şifre güncellendi
-gettext('New email address')        // [Not translated string] New email address
+_('Current password')         // Şimdiki şifre
+_('New password')             // Yeni şifre
+_('Updated {0}', 'password')  // şifre güncellendi
+_('New email address')        // [Not translated string] New email address
 ```
 
 ### API
